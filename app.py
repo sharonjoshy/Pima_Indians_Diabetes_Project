@@ -10,9 +10,9 @@ import joblib
 app = Flask(__name__)  #flask app define cheyyunnu
 
 
-
 model = joblib.load("model.pk")
 scale = joblib.load("scale.pk")
+
 
 
 
