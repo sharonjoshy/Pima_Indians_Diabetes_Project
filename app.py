@@ -60,7 +60,7 @@ def predict():
         valpred = round(prediction[0][0],3)  #take 3 positions
         print(f"The round value{valpred*100}")
         
-        return render_template('result.html',pred=f'Congradulation you are safe. \n Probability of you being non diabetic is {valpred*100}% \n Exercise regularly')
+        return render_template('result.html',pred=f'Congratulations you are safe. \n Probability of you being non diabetic is {valpred*100}% \n Exercise regularly')
 
 
     
